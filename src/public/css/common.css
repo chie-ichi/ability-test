@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+:root {
+    --default-color: #8B7969;
+    --default-color-rgb: 139, 121, 105;
+    --border-color: #E0DFDE;
+}
+body{
+    font-family: "Inika", san-serif;
+    color: var(--default-color);
+}
+*{
+    box-sizing: border-box;
+    font-family: "Inika", san-serif;
+}
+a{
+    transition: .5s all ease;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.7;
+}
+button{
+    cursor: pointer;
+}
+.header{
+    height: 100px;
+    border-bottom: 1px solid var(--border-color);
+    background: #fff;
+}
+.header__inner{
+    width: calc(100% - 200px);
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__logo{
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1;
+    color: var(--default-color);
+}
+.header__button{
+    position: absolute;
+    right: 0;
+    top: calc(50% - 17px);
+    width: 100px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #D9C6B5;
+    color: #D9C6B5;
+    background: #F0F0F0;
+    font-size: 20px;
+    transition: .5s all ease;
+}
+.header__button:hover{
+    opacity: 1;
+    background: #D9C6B5;
+    color: #fff;
+}
+.main-content{
+    padding: 50px 0;
+}
+.page-ttl{
+    line-height: 1.2;
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+    margin: 0 0 50px;
+}

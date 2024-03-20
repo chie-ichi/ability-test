@@ -1,0 +1,63 @@
+.header{
+    display: none;
+}
+.main-content{
+    padding: 0;
+}
+.thanks__content{
+    position: relative;
+    height: 100vh;
+}
+.thanks__bg{
+    position: absolute;
+    left: 0;
+    top: calc(50% - 0.5em);
+    z-index: -1;
+    font-size: min(280px, 18.51852vw);
+    color: rgba(var(--default-color-rgb), 0.05);
+    text-align: center;
+    width: 100%;
+    line-height: 1;
+    height: 1em;
+}
+.thanks__content-inner{
+    width: 95%;
+    height: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thanks__message{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.2;
+}
+.thanks__button{
+    margin-top: 50px;
+}
+.thanks__button-home{
+    background: var(--default-color);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--default-color);
+    transition: .5s all ease;
+    line-height: 1;
+    width: 160px;
+    height: 46px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.thanks__button-home:hover{
+    background: #fff;
+    color: var(--default-color);
+}
