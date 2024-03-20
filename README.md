@@ -1,5 +1,4 @@
-# アプリケーション名
-FashionablyLate
+# FashionablyLate
 
 ## 環境構築
 ### Dockerビルド
